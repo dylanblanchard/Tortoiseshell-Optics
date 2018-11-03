@@ -18,7 +18,9 @@ div {
 
 #heroimg {
   z-index: -1;
-  background-color: gray;
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  /* background-color: gray; */
   width: 100%;
 }
 
