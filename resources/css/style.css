@@ -4,6 +4,12 @@
   font-family: Helvetica;
 }
 
+body {
+  
+  /* how do I set the container to 960px
+  width: 960px; */
+}
+
 div {
   border: 1px solid red;
 }
@@ -31,9 +37,6 @@ div {
   background-color: cadetblue;
 }
 
-#topbar {
-  
-}
 
 #logoname {
   
@@ -61,4 +64,19 @@ ul {
   font-size: 2rem;
   line-height: 1.2;
   background-color: white;
+}
+
+
+footer {
+  background-color: azure;
+  height: 8rem;
+}
+
+#footerbits {
+  padding: 4rem;
+}
+
+footer img {
+  padding-right: 1rem;
+  height: 1.5rem;
 }
