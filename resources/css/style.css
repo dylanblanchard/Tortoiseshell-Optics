@@ -5,7 +5,7 @@
 }
 
 body {
-  
+
   /* how do I set the container to 960px
   width: 960px; */
 }
@@ -37,6 +37,12 @@ div {
   background-color: cadetblue;
 }
 
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .5rem;
+}
 
 .logoname {
   padding-top: 1rem;
@@ -61,7 +67,7 @@ li {
 
 #bannercontainer {
   padding-top: 10rem;
-  
+
 
 }
 
@@ -96,7 +102,32 @@ li {
   width: 5rem;
 }
 
+#contents {
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-around;
+  display: inline-flex;
 
+}
+
+.content {
+  width: 35%;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 10rem;
+  color: white;
+}
+
+#headcontent {
+  
+}
 
 footer {
   background-color: azure;
