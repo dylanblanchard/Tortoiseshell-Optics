@@ -31,6 +31,18 @@ div {
   background-color: cadetblue;
 }
 
+#topbar {
+  
+}
+
+#logoname {
+  
+}
+
+nav {
+  padding-top: 1rem;
+}
+
 li {
   list-style: none;
 }
