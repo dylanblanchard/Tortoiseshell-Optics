@@ -38,24 +38,31 @@ div {
 }
 
 
-#logoname {
-  
+.logoname {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: white;
 }
 
 nav {
   padding-top: 1rem;
 }
 
-li {
-  list-style: none;
-}
-
 ul {
   display: inline-flex;
 }
 
+li {
+  list-style: none;
+  padding-right: 2rem;
+  color: white;
+}
+
+
 #bannercontainer {
   padding-top: 10rem;
+  
+
 }
 
 #banner {
@@ -65,6 +72,30 @@ ul {
   line-height: 1.2;
   background-color: white;
 }
+
+#icons {
+  height: 8rem;
+  padding: 3rem 0rem;
+  justify-content: center;
+}
+
+.icon {
+  padding-right: 6rem;
+  /* these icons get their own individual widths and shit */
+}
+
+#icon-1 img {
+  width: 3.5rem;
+}
+
+#icon-2 img {
+  width: 5rem;
+}
+
+#icon-3 img {
+  width: 5rem;
+}
+
 
 
 footer {
@@ -79,4 +110,9 @@ footer {
 footer img {
   padding-right: 1rem;
   height: 1.5rem;
+}
+
+#footertext {
+  padding-top: .3rem;
+  /*lolol this isn't right. Not proud, but it works */
 }
