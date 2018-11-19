@@ -76,16 +76,41 @@ header .flex {
 }
 
 /* main sections */
-.supporting {}
+.supporting {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
 
-.info {}
+.service {
+  
+}
 
-.title {}
+
+.info {
+  width: 10rem;
+}
+
+.title {
+  background-color: cadetblue;
+}
 
 /* footer */
 
 footer {
   background-color: azure;
+  margin-top: 5rem;
+}
+
+footer div {
+  display: flex;
+  padding: 4rem 0;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  padding-right: 1rem;
 }
 
 footer img {}
