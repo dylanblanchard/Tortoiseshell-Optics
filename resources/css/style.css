@@ -79,13 +79,27 @@ header .flex {
 .supporting {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+
 }
 
 .service {
-  
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
 
 .info {
   width: 10rem;
