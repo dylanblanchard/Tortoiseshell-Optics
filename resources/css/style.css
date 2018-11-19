@@ -1,149 +1,71 @@
-* {
-  font-size: 18px;
-  line-height: 1.4;
-  font-family: Helvetica;
-}
-
-body {
-
-  /* how do I set the container to 960px
-  width: 960px; */
-}
+/* universal bits */
 
 div {
   border: 1px solid red;
 }
 
-.container {
-  display: flex;
-}
-
-#hero {
-  height: 30rem;
-}
-
-#heroimg {
-  z-index: -1;
-  background-image: url(../images/glasses-bg.png);
-  background-size: cover;
-  /* background-color: gray; */
-  width: 100%;
-}
-
-.topbar {
-  position: absolute;
-  display: inline-flex;
-  width: 100%;
-  background-color: cadetblue;
-}
-
-.logo img {
-  height: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: .5rem;
-}
-
-.logoname {
-  padding-top: 1rem;
-  font-size: 1rem;
-  color: white;
-}
-
-nav {
-  padding-top: 1rem;
-}
-
-ul {
-  display: inline-flex;
-}
-
-li {
-  list-style: none;
-  padding-right: 2rem;
-  color: white;
-}
-
-
-#bannercontainer {
-  padding-top: 10rem;
-
-
-}
-
-#banner {
-  padding: 1.5rem 5rem;
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
+html {
+  font-size: 18px;
+  font-family: "helvetica", sans-serif;
   background-color: white;
 }
 
-#icons {
-  height: 8rem;
-  padding: 3rem 0rem;
-  justify-content: center;
+body {
+  line-height: 1.4;
 }
 
-.icon {
-  padding-right: 6rem;
-  /* these icons get their own individual widths and shit */
-}
-
-#icon-1 img {
-  width: 3.5rem;
-}
-
-#icon-2 img {
-  width: 5rem;
-}
-
-#icon-3 img {
-  width: 5rem;
-}
-
-#contents {
-  width: 100%;
+.container {
   max-width: 960px;
-  justify-content: space-around;
-  display: inline-flex;
-
+  margin: auto;
 }
 
-.content {
-  width: 35%;
+.flex {
+  display: flex;
 }
 
-.content h2 {
-  font-weight: bold;
-  font-size: 1rem;
+/* header */
+header {
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+nav {
   background-color: cadetblue;
-  padding-left: 1.25rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  width: 10rem;
   color: white;
+  display: flex;
 }
 
-#headcontent {
+.menu {
+
+}
+
+ul {
+  justify-content: flex-end;
+}
+
+/* main sections */
+.supporting {
   
 }
 
-footer {
-  background-color: azure;
-  height: 8rem;
+.info {
+  
 }
 
-#footerbits {
-  padding: 4rem;
+.title {
+  
+}
+
+/* footer */
+
+footer {
+  background-color: azure;
 }
 
 footer img {
-  padding-right: 1rem;
-  height: 1.5rem;
-}
-
-#footertext {
-  padding-top: .3rem;
-  /*lolol this isn't right. Not proud, but it works */
+  
 }
