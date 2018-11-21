@@ -1,9 +1,5 @@
 /* universal bits */
 
-div {
-  border: 1px solid red;
-}
-
 html {
   font-size: 18px;
   font-family: "helvetica", sans-serif;
@@ -240,5 +236,4 @@ footer img {
     margin: 0;
     padding: 0;
   }
-
 }
