@@ -218,6 +218,7 @@ footer img {
   .info p {
     font-size: 0.77rem;
     padding: 2rem;
+    text-align: center;
   }
 
   #info-top {
